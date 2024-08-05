@@ -28,7 +28,7 @@ movies = movies_list['title'].values
 st.title('Movie Recommender System')
 
 selected_movie_name = st.selectbox(
-'How wpuld you like to be contacted?',
+'How would you like to be contacted?',
     movies
 )
 
